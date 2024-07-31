@@ -1,0 +1,117 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    height: 400vh;
+    width: 80vw;
+    position: relative;
+}
+.header {
+    height: 55px;
+    width: 80vw;
+    background-color: white;
+    box-shadow: 2px 2px 8px;
+    position: sticky;
+    top: 0PX;
+}
+.image {
+    width: 80vw;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: bold;
+}
+.list1,.list,.list2,.list3{
+    position: absolute;
+    top: 14px;
+    letter-spacing: 3px;
+}
+.list {
+    right: 240px;
+}
+.list2 {
+    right: 130px;
+}
+.list3 {
+    right: 10px;
+}
+.list:hover,.list2:hover,.list3:hover,.list1:hover {
+    background-color: lightgray;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.ar {
+    position: absolute;
+    top: 55vh;
+    left: 36vw;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 34px;
+}
+.br {
+    background-color: rgb(30, 27, 27, 0.9);
+    font-size: 35px;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 58vh;
+    left: 32vw;
+}
+p {
+    font-size: 27px;
+    margin-left: 10px;
+}
+img {
+    width: 19vw;
+}
+.lo{
+    font-size: 18px;
+    margin: 10px;
+}
+.name{
+    font-size: 30px;
+}
+.message{
+    position: relative;
+    bottom: 238px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}
+.ph{
+    font-size: 18px;
+}
+input{
+    padding: 10px;
+    height: 20px;
+    width: 78vw;
+}
+input::placeholder{
+    font-size: 22px;
+}
+.submit{
+    background-color: black;
+    color: white;
+    width: 180px;
+    height: 80px;
+    font-size: 16px;
+}
+#last{
+    width: 80vw;
+}
+.footer{
+    background-color: black;
+    height: 120px;
+    width: 80vw;
+    color: white;
+    position:absolute;
+    bottom:0px;
+}
+.lasttext{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+}
